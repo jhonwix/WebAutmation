@@ -3,18 +3,24 @@ body {
     color: #ffffff;
     background-image: url('Robot.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-position: center 250px; /* Ajusta la posición de la imagen de fondo en el eje vertical */
+    background-size: auto;
+}
+.content-container {
+    max-width: 800px; /* Establece un ancho máximo para el contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
 }
 .container {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
 }
-
+nav {
+    margin-top: 5px; /* Establece un margen superior de 3 cm para el menú de navegación */
+}
 header {
-    background-color: #35424a;
+    background-color: #000000;
     padding: 20px;
     text-align: center;
     color: white;
@@ -24,7 +30,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #202020;
     padding: 10px;
 }
 
@@ -42,4 +48,7 @@ nav a:hover {
 
 section {
     padding: 20px;
+}
+.linkedin-container {
+    text-align: center;
 }
